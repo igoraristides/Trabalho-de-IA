@@ -1,0 +1,11 @@
+pode_ir(1,2,5).
+pode_ir(1,3,6).
+pode_ir(1,4,10).
+pode_ir(2,5,13).
+pode_ir(3,4,3).
+pode_ir(3,5,11).
+pode_ir(3,6,6).
+pode_ir(4,5,6).
+pode_ir(4,6,4).
+pode_ir(5,7,3).
+pode_ir(6,7,8).
