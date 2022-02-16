@@ -24,8 +24,9 @@ class Grafo:
         
         while not fila_c_prioridade.empty():
             (dist, vertice_atual) = fila_c_prioridade.get()
-            self.visitou.append(vertice_atual)
+            self.visitou.append([vertice_atual])
             for i in range(self.vertices):
+
                 if self.grafo[vertice_atual-1][i] != 0:
                     custo_anterior = c[i][0]
                     novo_custo = dist + self.grafo[vertice_atual-1][i]

@@ -24,10 +24,10 @@ for linha in ref_arquivo:
 
     keys = meu_dic.keys()
 
-    if(valores[1] in keys):
-          continue
-    else:
-        meu_dic[valores[1]] = []
+    # if(valores[1] in keys):
+    #       continue
+    # else:
+    #     meu_dic[valores[1]] = []
 
     x.append(valores) 
     for element in valores:
@@ -46,11 +46,12 @@ for vertice in x:{
 
 visited = set() 
 
-result = g.AlgoritmoDijkstra(1)
+result = g.AlgoritmoDijkstra(0)
+print(g.visitou)
 
-print(ddict2dict(meu_dic))
+# print(ddict2dict(meu_dic))
     
-dfs(visited,ddict2dict(meu_dic) , '1')
+# dfs(visited,ddict2dict(meu_dic) , '1')
 
 
 ref_arquivo.close()
