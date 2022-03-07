@@ -172,7 +172,7 @@ def menu():
             print('\n\n\tO arquivo ' + nameFile +
                   ' foi carregado com sucesso!')
             print('\n\t\t\tIniciando novo jogo...\n\n')
-            #sleep(3)
+            sleep(3)
             menu2(nameFile)
 
         def exitGame():
